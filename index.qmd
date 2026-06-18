@@ -1,5 +1,5 @@
 ---
-title: "ElektronikEinfach.github.io"
+title: "ElektronikEinfach"
 ---
 
 This is a Quarto website.

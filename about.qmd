@@ -2,4 +2,5 @@
 title: "About"
 ---
 
-About this site
+Diese Website setzt es sich zum Ziel, Elektronik einfach zu erklären. Sie ist für alle gedacht, die sich für Elektronik interessieren und ihr Wissen erweitern möchten.
+Dabei soll es ein Open-Source Projekt sein, ohne jegliche kommerzielle Interessen. Inhalte sollen für jeden frei zugänglich sein. Wer möchte, kann sich gerne an der Weiterentwicklung beteiligen.
