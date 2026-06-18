@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "ElektronikEinfach"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Basics"
+        contents:
+          - text: "Spannung"
+            href: Spannung.qmd
+          - text: "Strom"
+            href: Strom.qmd
+          - text: "Bauteile"
+            href: Bauteile.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
