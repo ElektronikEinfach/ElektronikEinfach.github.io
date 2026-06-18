@@ -1,0 +1,17 @@
+{
+  "about.qmd": {
+    "about.html": "86de7bb4"
+  },
+  "Basics/Spannung.qmd": {
+    "Spannung.html": "bf08e41f"
+  },
+  "Basics/Strom.qmd": {
+    "Strom.html": "f8be219d"
+  },
+  "Basics/Widerstand.qmd": {
+    "Widerstand.html": "433bc645"
+  },
+  "index.qmd": {
+    "index.html": "a481a5ae"
+  }
+}
