@@ -3,11 +3,14 @@ project:
 
 website:
   title: "ElektronikEinfach"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Basics"
+        contents:
+          - Spannung-und-Strom.qmd
+          - Bauteile.qmd
 
 format:
   html:
