@@ -7,6 +7,17 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
+    "objectID": "Basics/Spannung.html",
+    "href": "Basics/Spannung.html",
+    "title": "ElektronikEinfach",
+    "section": "",
+    "text": "Spannungsquellen besitzen im Prinzip zwei Pole mit unterschiedlichen Ladungen. Man unterscheidet zwischen Plus- und Minuspol:\n\nPluspol: Hier befinden sich die positiven Ladungen, man spricht von einem Mangel an Elektronen.\nMinuspol: Hier befinden sich die negativen Ladungen, man spricht von einem Überschuss an Elektronen.\n\nDie elektrische Spannung (U) gibt die notwendige Energie an, um diesen Unterschied der Elektronenmenge zu erreichen. Die elektrische Spannung wird in Volt angegeben.\nEntsteht eine Verbindung zwischen den beiden Polen, kommt es zum Fluss des elektrischen Stroms.\nFolgende Aussagen können über die Spannung gemacht werden:\n\nSie ist der Druck auf die Elektronen, der sie zum Fließen bringt.\nSie ist die Ursache des Stromflusses.\nSie entsteht durch den Ladungsunterschied (Potentialdifferenz) zwischen zweier Punkte.",
+    "crumbs": [
+      "Basics",
+      "Spannung"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
