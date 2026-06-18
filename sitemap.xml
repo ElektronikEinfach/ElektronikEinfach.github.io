@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ElektronikEinfach.github.io/index.html</loc>
-    <lastmod>2026-06-18T21:36:31.745Z</lastmod>
+    <lastmod>2026-06-18T21:42:44.304Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ElektronikEinfach.github.io/Basics/Bauteile.html</loc>
+    <lastmod>2026-06-18T21:53:52.286Z</lastmod>
   </url>
   <url>
     <loc>https://ElektronikEinfach.github.io/about.html</loc>
-    <lastmod>2026-06-18T21:40:40.620Z</lastmod>
+    <lastmod>2026-06-18T21:42:44.304Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ElektronikEinfach.github.io/Basics/Spannung-und-Strom.html</loc>
+    <lastmod>2026-06-18T21:53:39.267Z</lastmod>
   </url>
 </urlset>
