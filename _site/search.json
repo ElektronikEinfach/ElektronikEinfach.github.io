@@ -7,10 +7,32 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
+    "objectID": "Basics/Strom.html",
+    "href": "Basics/Strom.html",
+    "title": "ElektronikEinfach",
+    "section": "",
+    "text": "Wie bereits unter dem Punkt Spannung erwähnt, entsteht der elektrische Strom (Stromstärke) durch die Bewegung von Elektronen.\nDie Stromstärke (I) gibt die Übertragung elektrischer Energie an. Sie wird in Ampere angegeben.\nElektrischer Strom kann nur fließen, wenn zwei Punkte mit unterschiedlicher Ladung (Potential) durch einen genügend leitenden Pfad verbunden sind.\nFormeln zur Berechnung der Stromstärke:\n\nOhmsches Gesetz: I = U / R = Elektrische Spannung / Elektrischer Widerstand\nLeistungsgesetz: I = P / U = Elektrische Leistung / Elektrische Spannung\nLadungsmenge: I = Q / t = Elektrische Ladungsmenge / Zeit\n\nGrundsätzlich wird zwischen zwei Stromrichtungen unterschieden:\n\nTechnische Stromrichtung: Hier fließt der Strom von Plus nach Minus, also von der positiven Ladung zur negativen Ladung.\nPhysikalische Stromrichtung: Hier fließt der Strom von Minus nach Plus, also von der negativen Ladung zur positiven Ladung.\n\nDie technische Stromrichtung wird in der Praxis häufiger verwendet, da sie historisch bedingt ist und in den meisten Schaltplänen und Diagrammen verwendet wird. Die physikalische Stromrichtung wird jedoch in der Wissenschaft und Forschung verwendet, um die tatsächliche Bewegung der Elektronen zu beschreiben.",
+    "crumbs": [
+      "Basics",
+      "Strom"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "Diese Website setzt es sich zum Ziel, Elektronik einfach zu erklären. Sie ist für alle gedacht, die sich für Elektronik interessieren und ihr Wissen erweitern möchten. Dabei soll es ein Open-Source Projekt sein, ohne jegliche kommerzielle Interessen. Inhalte sollen für jeden frei zugänglich sein. Wer möchte, kann sich gerne an der Weiterentwicklung beteiligen."
+  },
+  {
+    "objectID": "Basics/Spannung.html",
+    "href": "Basics/Spannung.html",
+    "title": "ElektronikEinfach",
+    "section": "",
+    "text": "Spannungsquellen besitzen im Prinzip zwei Pole mit unterschiedlichen Ladungen. Man unterscheidet zwischen Plus- und Minuspol:\n\nPluspol: Hier befinden sich die positiven Ladungen, man spricht von einem Mangel an Elektronen.\nMinuspol: Hier befinden sich die negativen Ladungen, man spricht von einem Überschuss an Elektronen.\n\nDie elektrische Spannung (U) gibt die notwendige Energie an, um diesen Unterschied der Elektronenmenge zu erreichen. Die elektrische Spannung wird in Volt angegeben.\nEntsteht eine Verbindung zwischen den beiden Polen, kommt es zum Fluss des elektrischen Stroms.\nFolgende Aussagen können über die Spannung gemacht werden:\n\nSie ist der Druck auf die Elektronen, der sie zum Fließen bringt.\nSie ist die Ursache des Stromflusses.\nSie entsteht durch den Ladungsunterschied (Potentialdifferenz) zwischen zweier Punkte.",
+    "crumbs": [
+      "Basics",
+      "Spannung"
+    ]
   }
 ]

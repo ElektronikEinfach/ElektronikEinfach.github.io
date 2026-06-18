@@ -1,0 +1,18 @@
+Wie bereits unter dem Punkt Spannung erwähnt, entsteht der elektrische Strom (Stromstärke) durch die Bewegung von Elektronen.
+
+Die Stromstärke (I) gibt die Übertragung elektrischer Energie an. Sie wird in Ampere angegeben.
+
+Elektrischer Strom kann nur fließen, wenn zwei Punkte mit unterschiedlicher Ladung (Potential) durch einen genügend leitenden Pfad verbunden sind.
+
+Formeln zur Berechnung der Stromstärke:
+
+- **Ohmsches Gesetz:** I = U / R = Elektrische Spannung / Elektrischer Widerstand
+- **Leistungsgesetz:** I = P / U = Elektrische Leistung / Elektrische Spannung
+- **Ladungsmenge:** I = Q / t = Elektrische Ladungsmenge / Zeit
+
+Grundsätzlich wird zwischen zwei Stromrichtungen unterschieden:
+
+- **Technische Stromrichtung:** Hier fließt der Strom von Plus nach Minus, also von der positiven Ladung zur negativen Ladung.
+- **Physikalische Stromrichtung:** Hier fließt der Strom von Minus nach Plus, also von der negativen Ladung zur positiven Ladung.
+
+Die technische Stromrichtung wird in der Praxis häufiger verwendet, da sie historisch bedingt ist und in den meisten Schaltplänen und Diagrammen verwendet wird. Die physikalische Stromrichtung wird jedoch in der Wissenschaft und Forschung verwendet, um die tatsächliche Bewegung der Elektronen zu beschreiben.

@@ -1,0 +1,16 @@
+Spannungsquellen besitzen im Prinzip zwei Pole mit unterschiedlichen Ladungen. Man unterscheidet zwischen Plus- und Minuspol:
+
+- **Pluspol:** Hier befinden sich die positiven Ladungen, man spricht von einem Mangel an Elektronen.
+- **Minuspol:** Hier befinden sich die negativen Ladungen, man spricht von einem Überschuss an Elektronen.
+
+Die elektrische Spannung (U) gibt die notwendige Energie an, um diesen Unterschied der Elektronenmenge zu erreichen. Die elektrische Spannung wird in Volt angegeben.
+
+Entsteht eine Verbindung zwischen den beiden Polen, kommt es zum Fluss des elektrischen Stroms.
+
+Folgende Aussagen können über die Spannung gemacht werden:
+
+- Sie ist der Druck auf die Elektronen, der sie zum Fließen bringt.
+- Sie ist die Ursache des Stromflusses.
+- Sie entsteht durch den Ladungsunterschied (Potentialdifferenz) zwischen zweier Punkte.
+
+
