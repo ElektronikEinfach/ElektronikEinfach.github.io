@@ -13,8 +13,8 @@ website:
             href: Basics/Spannung.qmd
           - text: "Strom"
             href: Basics/Strom.qmd
-          - text: "Bauteile"
-            href: Basics/Bauteile.qmd
+          - text: "Widerstand"
+            href: Basics/Widerstand.qmd
 
 format:
   html:
