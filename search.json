@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ElektronikEinfach.github.io",
+    "title": "ElektronikEinfach",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
@@ -11,6 +11,6 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "Diese Website setzt es sich zum Ziel, Elektronik einfach zu erklären. Sie ist für alle gedacht, die sich für Elektronik interessieren und ihr Wissen erweitern möchten. Dabei soll es ein Open-Source Projekt sein, ohne jegliche kommerzielle Interessen. Inhalte sollen für jeden frei zugänglich sein. Wer möchte, kann sich gerne an der Weiterentwicklung beteiligen."
   }
 ]
