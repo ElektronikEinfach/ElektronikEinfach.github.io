@@ -6,9 +6,23 @@ Elektrischer Strom kann nur fließen, wenn zwei Punkte mit unterschiedlicher Lad
 
 Formeln zur Berechnung der Stromstärke:
 
-- **Ohmsches Gesetz:** I = U / R = Elektrische Spannung / Elektrischer Widerstand
-- **Leistungsgesetz:** I = P / U = Elektrische Leistung / Elektrische Spannung
-- **Ladungsmenge:** I = Q / t = Elektrische Ladungsmenge / Zeit
+Grundlegend nach dem Ohmschen Gesetz:
+$$
+I = \frac{U}{R}
+$$
+Wobei U die Spannung in Volt und R der elektrische Widerstand in Ohm ist.
+
+Aus der Formel für die elektrische Leistung:
+$$
+I = \frac{P}{U}
+$$
+Wobei P die Leistung in Watt und U die Spannung in Volt ist.
+
+Aus der Ladungsmenge:
+$$
+I = \frac{Q}{t}
+$$
+Wobei Q die elektrische Ladung in Coulomb und t die Zeit in Sekunden ist.
 
 Grundsätzlich wird zwischen zwei Stromrichtungen unterschieden:
 
