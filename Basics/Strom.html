@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -156,11 +185,15 @@ ul.task-list li input[type="checkbox"] {
 <p>Die Stromstärke (I) gibt die Übertragung elektrischer Energie an. Sie wird in Ampere angegeben.</p>
 <p>Elektrischer Strom kann nur fließen, wenn zwei Punkte mit unterschiedlicher Ladung (Potential) durch einen genügend leitenden Pfad verbunden sind.</p>
 <p>Formeln zur Berechnung der Stromstärke:</p>
-<ul>
-<li><strong>Ohmsches Gesetz:</strong> I = U / R = Elektrische Spannung / Elektrischer Widerstand</li>
-<li><strong>Leistungsgesetz:</strong> I = P / U = Elektrische Leistung / Elektrische Spannung</li>
-<li><strong>Ladungsmenge:</strong> I = Q / t = Elektrische Ladungsmenge / Zeit</li>
-</ul>
+<p>Grundlegend nach dem Ohmschen Gesetz: <span class="math display">\[
+I = \frac{U}{R}
+\]</span> Wobei U die Spannung in Volt und R der elektrische Widerstand in Ohm ist.</p>
+<p>Aus der Formel für die elektrische Leistung: <span class="math display">\[
+I = \frac{P}{U}
+\]</span> Wobei P die Leistung in Watt und U die Spannung in Volt ist.</p>
+<p>Aus der Ladungsmenge: <span class="math display">\[
+I = \frac{Q}{t}
+\]</span> Wobei Q die elektrische Ladung in Coulomb und t die Zeit in Sekunden ist.</p>
 <p>Grundsätzlich wird zwischen zwei Stromrichtungen unterschieden:</p>
 <ul>
 <li><strong>Technische Stromrichtung:</strong> Hier fließt der Strom von Plus nach Minus, also von der positiven Ladung zur negativen Ladung.</li>
