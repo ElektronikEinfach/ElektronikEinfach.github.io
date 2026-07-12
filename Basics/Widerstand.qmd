@@ -1,0 +1,15 @@
+In der Elektronik spielt der **ohm'sche Widerstand** eine essentielle Rolle. Jedes Bauteil in einer elektrischen Schaltung besitzt einen gewissen Widerstand, der Spannung und Strom beeinflusst.
+
+Das Formelzeichen für den Widerstand ist das große **R** mit der Einheit **Ohm (Ω)**.
+
+Grundlegend lässt sich der ohm'sche Widerstand wie folgt berechnen:
+$$
+R = (\rho \cdot l) / A
+$$
+Wobei Rho der materialabhängige spezifische Widerstand ist, l die Länge des Leiters und A die Querschnittsfläche des Leiters.
+
+Auch das errechnen durch das Ohmsche Gesetz ist möglich:
+$$
+R = U / I
+$$
+Wobei U die Spannung in Volt und I die Stromstärke in Ampere ist.

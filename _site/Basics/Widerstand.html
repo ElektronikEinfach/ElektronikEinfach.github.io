@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -152,6 +181,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<p>In der Elektronik spielt der <strong>ohm’sche Widerstand</strong> eine essentielle Rolle. Jedes Bauteil in einer elektrischen Schaltung besitzt einen gewissen Widerstand, der Spannung und Strom beeinflusst.</p>
+<p>Das Formelzeichen für den Widerstand ist das große <strong>R</strong> mit der Einheit <strong>Ohm (Ω)</strong>.</p>
+<p>Grundlegend lässt sich der ohm’sche Widerstand wie folgt berechnen: <span class="math display">\[
+R = (\rho \cdot l) / A
+\]</span> Wobei Rho der materialabhängige spezifische Widerstand ist, l die Länge des Leiters und A die Querschnittsfläche des Leiters.</p>
+<p>Auch das errechnen durch das Ohmsche Gesetz ist möglich: <span class="math display">\[
+R = U / I
+\]</span> Wobei U die Spannung in Volt und I die Stromstärke in Ampere ist.</p>
 
 
 
